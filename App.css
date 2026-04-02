@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+.header {
+  background: #4caf50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.form input,
+.form select {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+}
+
+.delete {
+  background: red;
+}
+
+table {
+  width: 100%;
+  background: white;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.insights {
+  background: white;
+  padding: 15px;
+  margin-top: 20px;
+}
